@@ -22,16 +22,16 @@
             <a href="#" class="font-bold text-transparent text-[1.3vw] bg-clip-text bg-gradient-to-r from-black via-pink-800 to-black">
                 Home
             </a>
-            <a href="#" class="text-[1.3vw]">
+            <a href="#" class="text-[1.3vw] text-[#666867] hover:text-black">
                 About
             </a>
-            <a href="#" class="text-[1.3vw]">
+            <a href="#" class="text-[1.3vw] text-[#666867] hover:text-black">
                 Collections
             </a>
-            <a href="#" class="text-[1.3vw]">
+            <a href="#" class="text-[1.3vw] text-[#666867] hover:text-black">
                 Features
             </a>
-            <a href="#" class="text-[1.3vw]">
+            <a href="#" class="text-[1.3vw] text-[#666867] hover:text-black">
                 Pricing
             </a>
         </div>
@@ -43,20 +43,28 @@
             </div>
             <div class="flex basis-[40%] items-center justify-between">
                 <img src="images\prof-pic.png" class="w-[55%] rounded-full"></img>
-                <button class="w-[30%]">
-                    <img src="images\down-chevron.png" alt="settings-toggle" id="settings-tog">
+                <button class="w-[30%] settings-tog-btn" id="">
+                    <img src="images\down-chevron.png" alt="settings-toggle" id="">
                 </button>
             </div>
         </div>
 
     </div>
 
-    <div class="flex mt-[7vw] px-[6%]">
-        <div class="w-[57%]">
+    <div class="flex mt-[7vw] px-[6%] relative">
+        <div class="absolute bottom-[-60px] right-[25%]">
+            <img src="images\ovals.png" alt="" class="z-0 h-[26vw]">
+            <div class="relative">
+                <img src="images\swirly-arrow.png" alt="" class="absolute z-0 h-[8vw] right-[-60%] top-[-120px]">
+            </div>
+        </div>
+        <div class="w-[57%] relative">
+            <img src="images\grad-star.png" alt="" class="absolute h-[6vw] top-[-60px] right-[-20px]">
             <div>
-                <p class="main-p text-[5vw] font-bold font-['Archivo'] leading-[1.15] text-transparent bg-clip-text bg-gradient-to-br from-black via-pink-900 to-black">
+                <p class="main-p text-[5vw] font-bold font-['Archivo'] leading-[1.15] text-transparent bg-clip-text bg-gradient-to-br from-black via-pink-900 to-black relative">
                     SMART WATCHES FACILITATE YOUR EVERY ACTIVITY
                 </p>
+                <img src="images\head-corner.png" alt="" class="absolute h-[2vw] left-[-20px] top-[16vw] z-0">
                 <p class="my-7 w-[90%] text-[1.5vw] tracking-[1px] text-[#5c5c5c]">
                     Everyone needs a smartwatch that helps to accurately track all-day steps, calorie consumption, distance traveled and heart rate. 
                     Always facilitating your every daily activity.
@@ -83,8 +91,11 @@
                 </div>
             </div>
         </div>
-        <div class="bg-black w-[43%] flex items-center justify-center rounded-[50px]">
-            <img src="images\watch.png" alt="" class="h-[50%]">
+        <div class="bg-gradient-to-br from-black via-gray-500 to-white w-[43%] flex items-center justify-center rounded-[50px] relative">
+            <div class="bg-white h-[50%] w-full absolute bottom-0 backdrop-blur-sm bg-opacity-20 z-40 rounded-[50px]"></div>
+            <img src="images\watch.png" alt="" class="h-[20vw] absolute z-50">
+            <img src="images\watch-bg-sphere.png" alt="" class="relative z-30 w-[30vw]">
+            
         </div>
     </div>
 
